@@ -4,6 +4,7 @@
     --white: #fff;
     --white-fonte: #b3b3b3;
     --background-base: #121212;
+    --black-securdy:#242424;
 }
 
 
@@ -11,8 +12,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Dm Sans", sans-serif;
 
-} 
+}
 
 body {
     background-color: var(--black);
@@ -24,45 +26,105 @@ body {
     left: 0;
     bottom: 0;
     padding: 12px;
-    max-width: 300px;
+    width: 300px;
+
 }
 
 .sidebar__navigation {
 
     background: var(--background-base);
     border-radius: 8px;
-    padding: 13px 0 0 13px;/* Padão é 16px 0 0 16px  */
+    padding: 13px 0 0 13px;
+    /* Padão é 16px 0 0 16px  */
 
 }
-.sidebar__navigation  .logo{
+
+.sidebar__navigation .logo {
     background: var(--background-base);
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 
-.sidebar__navigation  .logo img {
+.sidebar__navigation .logo img {
     width: 90px;
 }
 
 
 
-.sidebar nav ul{
+.sidebar nav ul {
     padding: 0 20px 10px 20px;
     margin-top: 20px;
 }
-.sidebar nav ul li{
+
+.sidebar nav ul li {
     padding: 10px 0px;
 }
 
- .sidebar nav ul li a{
+.sidebar nav ul li a {
     color: var(--white-fonte);
     text-decoration: none;
     font-weight: 600;
     font-size: 15px;
-    font-family: "Dm Sans", sans-serif;
 
 }
-.sidebar nav ul li a:hover{
+
+.sidebar nav ul li a:hover {
     color: var(--white);
 }
+
+
+/* Desafio  */
+
+
+.library {
+    height: 100%;
+
+    background: var(--background-base);
+
+    border-radius: 8px;
+}
+
+
+
+.library-content {
+    display: flex;
+    color: var(--white-fonte);
+    padding: 20px  20px 20px  30px ;
+    justify-content: space-between;
+
+}
+
+.library-content button {
+    background: transparent;
+    color: var(--white-fonte);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.library-content div:hover,
+.library-content button:hover {
+    color: var(--white);
+    cursor: pointer;
+
+}
+
+
+.section-playlist{
+    max-height: 200px;
+    height: 100%;
+    color: red;
+    overflow: auto;
+    
+
+}
+
+.section-playlist-box1,.section-playlist-box2{
+    background-color: var(--black-securdy);
+    
+    height: 150px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+/* Fim desafio  */
