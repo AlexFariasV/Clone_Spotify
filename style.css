@@ -1,0 +1,68 @@
+:root {
+
+    --black: #000;
+    --white: #fff;
+    --white-fonte: #b3b3b3;
+    --background-base: #121212;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+} 
+
+body {
+    background-color: var(--black);
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    max-width: 300px;
+}
+
+.sidebar__navigation {
+
+    background: var(--background-base);
+    border-radius: 8px;
+    padding: 13px 0 0 13px;/* Padão é 16px 0 0 16px  */
+
+}
+.sidebar__navigation  .logo{
+    background: var(--background-base);
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar__navigation  .logo img {
+    width: 90px;
+}
+
+
+
+.sidebar nav ul{
+    padding: 0 20px 10px 20px;
+    margin-top: 20px;
+}
+.sidebar nav ul li{
+    padding: 10px 0px;
+}
+
+ .sidebar nav ul li a{
+    color: var(--white-fonte);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: "Dm Sans", sans-serif;
+
+}
+.sidebar nav ul li a:hover{
+    color: var(--white);
+}
