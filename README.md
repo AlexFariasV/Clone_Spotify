@@ -1,2 +1,6 @@
 # Spotify
-In this repository we will create the Spotify home page
+
+#ImersãoFrontEnd & #Alura 
+
+- In this repository we will create the Spotify home page
+
