@@ -4,7 +4,7 @@
     --white: #fff;
     --white-fonte: #b3b3b3;
     --background-base: #121212;
-    --black-securdy:#242424;
+    --black-securdy: #242424;
 }
 
 
@@ -74,15 +74,14 @@ body {
 }
 
 
-/* Desafio  */
-
-
 .library {
-    height: 100%;
-
     background: var(--background-base);
-
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    font-weight: 600;
+    height: 63.5%;
 }
 
 
@@ -90,7 +89,7 @@ body {
 .library-content {
     display: flex;
     color: var(--white-fonte);
-    padding: 20px  20px 20px  30px ;
+    padding: 20px 20px 20px 30px;
     justify-content: space-between;
 
 }
@@ -98,7 +97,6 @@ body {
 .library-content button {
     background: transparent;
     color: var(--white-fonte);
-    font-weight: 600;
     font-size: 15px;
 }
 
@@ -109,22 +107,125 @@ body {
 
 }
 
-
-.section-playlist{
-    max-height: 200px;
-    height: 100%;
-    color: red;
-    overflow: auto;
-    
-
+.library .library-content .fa {
+    font-size: 18px;
+    margin-right: 3px;
+    font-weight: 300;
+    padding-right: 2px;
 }
 
-.section-playlist-box1,.section-playlist-box2{
+.section-playlist {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
     background-color: var(--black-securdy);
-    
-    height: 150px;
+    color: var(--white-fonte);
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px;
+    padding: 16px 20px;
     border-radius: 8px;
-    width: 100%;
+
+
 }
 
-/* Fim desafio  */
+.section-playlist .section-playlist-box1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist-box1 .text {
+    padding-bottom: 14px;
+    color: var(--white);
+
+}
+
+.section-playlist-box1 .subtitle {
+    font-weight: 500;
+    font-size: 12px;
+
+}
+
+.section-playlist-box1 .section-playlist__button {
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    color: var(--black);
+    font-size: 12px;
+    font-weight: bold;
+    width: 105px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    border: 0;
+
+}
+
+.sidebar .cookies {
+    margin: 25px 20px;
+}
+
+.sidebar .cookies a {
+    color: var(--white-fonte);
+    font-weight: 500;
+    font-size: 10px;
+    text-decoration: none;
+    margin: 0 20px 20px 0;
+}
+
+.sidebar .cookies a:hover {
+    text-decoration: underline;
+}
+.languages .languages__button{
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #878787;
+    color: var(--white);
+    cursor: pointer;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+
+
+/* Desafio de Hoje  */
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 99.2%;
+    margin: 5px;
+    
+
+}
+.content__footer{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right , #af2896,#509bf5);
+    padding: 13px;
+    color: var(--white);
+    align-items: center;
+}
+.content__texts__footer{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+.text__footer{
+    margin: 5px 0;
+}
+.content__footer .button__footer button{
+    padding: 13px 25px;
+    margin-right: 15px;
+    border-radius: 20px;
+    display: flex;
+    
+
+
+
+}
