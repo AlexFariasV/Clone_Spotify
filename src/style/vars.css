@@ -1,0 +1,31 @@
+:root {
+
+    /* início color */
+
+    --black: #000;
+    --white: #fff;
+    --white-fonte: #b3b3b3;
+    --white-securdy: #a7a7a7;
+    --background-base: #121212;
+    --black-securdy: #242424;
+    --bg-icon: #131313;
+    --bg-arrow-color: rgb(0, 0, 0, 7);
+    /* fim color  */
+
+
+    /* início fonts */
+    --font__principal: "Dm Sans", sans-serif;
+    /* fim fonts */
+
+
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font__principal);
+}
+
+body {
+    background-color: var(--black);
+}
