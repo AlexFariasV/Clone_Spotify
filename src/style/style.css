@@ -81,7 +81,7 @@ body {
     flex-direction: column;
     margin-top: 10px;
     font-weight: 600;
-    height: 63.5%;
+    height: 62.5%;
 }
 
 
@@ -193,13 +193,13 @@ body {
 
 
 
-/* Desafio de Hoje  */
-
 footer{
     position: absolute;
     bottom: 0;
     width: 99.2%;
     margin: 5px;
+    left: 0;
+    right: 0;
     
 
 }
@@ -207,7 +207,7 @@ footer{
     display: flex;
     justify-content: space-between;
     background: linear-gradient(to right , #af2896,#509bf5);
-    padding: 13px;
+    padding: 13px 40px;
     color: var(--white);
     align-items: center;
 }
@@ -217,15 +217,29 @@ footer{
     font-size: 15px;
 }
 .text__footer{
-    margin: 5px 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 10px;
+
 }
+.subtext__footer{
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+
+
 .content__footer .button__footer button{
-    padding: 13px 25px;
-    margin-right: 15px;
-    border-radius: 20px;
-    display: flex;
-    
-
-
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
 
 }
