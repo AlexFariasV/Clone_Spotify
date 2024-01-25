@@ -111,7 +111,7 @@
 
 .header__search:hover {
     border: 0.0625rem solid var(--white);
-   
+
 }
 
 .header__login .subscribe:hover,
@@ -128,9 +128,9 @@
     height: 72vh;
     padding-top: 1rem;
     margin: 1.25rem;
-   
+
     border-radius: 0.625rem;
-   
+
     background-color: #121212;
 }
 
@@ -189,7 +189,7 @@
     height: 12.5rem;
     overflow: hidden;
     border-radius: 0.5rem;
-    
+
 }
 
 .cards span {
