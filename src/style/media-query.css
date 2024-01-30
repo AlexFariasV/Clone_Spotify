@@ -15,27 +15,13 @@
 
 }
 
-/* 
-@media screen and (max-width: 375px) {
-    .playlist {
-        display: none;
-    }
 
-    .playlist-container {
-        width: 100%;
-        height: auto;
-    }
+@media (max-width: 924px) {
+    .content__footer .button__footer button {
+        font-size: 15px;
+        font-weight: bold;
+        padding: 8% 9px;
+        margin: 3px;
 
-    .sidebar {
-        width: 342px;
     }
-
-    .offer__list-item {
-        grid-template-columns: 1fr;
-    }
-
-    .offer__scroll-container {
-        overflow-y: visible;
-    }
-
-}  */
+}

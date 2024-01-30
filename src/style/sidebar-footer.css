@@ -5,6 +5,7 @@
     bottom: 0;
     padding: 12px;
     width: 300px;
+    margin-top: 10px;
 
 }
 
@@ -174,10 +175,10 @@
 footer {
     position: absolute;
     bottom: 0;
-    width: 99.2%;
-    margin: 5px;
+    width: 100%;
     left: 0;
     right: 0;
+
 
 
 }
@@ -218,7 +219,7 @@ footer {
     color: #000000;
     font-size: 16px;
     font-weight: bold;
-    padding: 14px 30px;
+    padding: 15% 10px;
     border: 0px;
     border-radius: 40px;
     cursor: pointer;
