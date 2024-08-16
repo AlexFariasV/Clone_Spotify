@@ -1,4 +1,4 @@
-# Spotify Clone
+#  Clone interface Spotify
 
 Este é um projeto desenvolvido durante a imersão Front-end do Alura, que consiste em um clone simplificado do aplicativo Spotify. O objetivo principal é demonstrar habilidades em desenvolvimento web utilizando tecnologias como [ HTML, CSS, JavaScript ].
 
@@ -13,7 +13,7 @@ Este é um projeto desenvolvido durante a imersão Front-end do Alura, que consi
 ### Instalação
 
 #### Clone o repositório: 
-- git clone https://github.com/AlexFAriasV/spotify-clone.git
+- git clone https://github.com/AlexfariasV/spotify-clone.git
 
 ### Autor
 Alex Farias Vaz dos Santos 
